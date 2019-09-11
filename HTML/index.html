@@ -1,46 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Curso JavaScript</title>
-</head>
-<body>
-
-<!--Operadores logicos-->
+  </head>
+  <body>
+    <!--Condições ternárias-->
     <script>
-     // and , or , not
+      var sexo = "M";
 
-     var sexo = 'M', idade = 23;
+      var retorno = sexo === "M" ? "Masculino" : "Feminino";
 
-     var masculino = sexo === 'M';
+      console.log(retorno);
 
-        console.log (masculino);
-
-     /*var masculino;
-
-     if (sexo ==='M'){
-         masculino = true; 
-     }else {
-         masculino = false;
-     }
-     console.log (masculino)*/
-
-     /*if (sexo === 'M' && idade >= 18){
-         console.log ("Ok")
+      /*if (sexo ==='M') {
+        return 'Masculino'
+     }else  {
+        return 'Feminino'
      }*/
-
-     /*if (sexo === 'M' || idade >= 18){
-         console.log ("Ok")
-     }*/
-
-     /*if (sexo !== 'F'){
-         console.log ('Ok')
-     }*/
-
-
-     
     </script>
-</body>
+  </body>
 </html>
