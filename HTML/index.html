@@ -8,32 +8,39 @@
 </head>
 <body>
 
-<!--Condicionais-->
+<!--Operadores logicos-->
     <script>
-     function  retornaSexo (sexo){
+     // and , or , not
 
-         switch (sexo){
-             case 'M':
-             return 'Masculino';
-             case 'F':
-             return 'Feminino';
-             default:
-             return 'Outro'
-         }
-         // M ou F
-         //Masculino ou Feminino
-         /*if (sexo === 'M') {
-             return 'Masculino';
+     var sexo = 'M', idade = 23;
 
-         } else if (sexo === 'F'){
-         return 'Feminino';
+     var masculino = sexo === 'M';
 
-         }else {
-             return 'Outro';
-         }*/
+        console.log (masculino);
+
+     /*var masculino;
+
+     if (sexo ==='M'){
+         masculino = true; 
+     }else {
+         masculino = false;
      }
-     var resultado = retornaSexo ('dsadasdsadas');
-     console.log (resultado);
+     console.log (masculino)*/
+
+     /*if (sexo === 'M' && idade >= 18){
+         console.log ("Ok")
+     }*/
+
+     /*if (sexo === 'M' || idade >= 18){
+         console.log ("Ok")
+     }*/
+
+     /*if (sexo !== 'F'){
+         console.log ('Ok')
+     }*/
+
+
+     
     </script>
 </body>
 </html>
