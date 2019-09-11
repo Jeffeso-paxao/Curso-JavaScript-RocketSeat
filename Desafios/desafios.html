@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Desafio</title>
+  </head>
+  <body>
+   
+   <!--Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:-->
+   <script>
+        var pares = [];
+        function exibePar(x, y) {
+          while (x <= y) {
+            if (x % 2 == 0) {
+              pares.push(x);
+            }
+            x++;
+          }
+        }
+        exibePar(32, 320);
+        console.log(pares);
+      </script>
+    </body>
+  </html>
+  </body>
+</html>
